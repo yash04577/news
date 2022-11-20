@@ -1,0 +1,226 @@
+.navbar {
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid white;
+    height: 15vh;
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+}
+
+nav{
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 .8rem;
+    color: white;
+}
+
+.navbar a:hover {
+    color: #bb8d39;
+}
+
+.logo {
+    padding-left: 2rem;
+    text-decoration: none;
+    color: #bb8d39;
+    font-size: 25px;
+}
+
+.icons{
+    /* width: 100px; */
+    justify-content: space-between;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+.main_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.my_card {
+    margin: 15px 5px;
+    box-shadow: 10px 10px 10px 10px gray;
+    border-radius: 10px;
+    /* max-width: 290px; */
+    /* max-height: 496px; */
+    /* object-fit: cover; */
+}
+
+/* 
+.my_card :hover{
+    background-color: black;
+    color: white;
+} */
+
+.card-title {
+    max-width: 250px;
+    max-height: 100px;
+    min-width: 250px;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.card-text {
+    max-width: 250px;
+    max-height: 150px;
+    min-width: 250px;
+    min-height: 150px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    max-width: 290px;
+    max-height: 150px;
+    min-width: 290px;
+    min-height: 150px;
+    border-radius: 10px;
+}
+
+
+footer {
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+    height: 40vh;
+    background-color: #13131a;
+}
+
+
+
+.social_icons {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto;
+    padding-top: 25px;
+    /* transition: 0.5s; */
+}
+
+
+.social_icons a {
+    /* display: flex; */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+
+.social_icons a :hover {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #bb8d39;
+}
+
+
+.links {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+
+.links button {
+    width: 12%;
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #13131a;
+    border: 1px solid white;
+    color: white;
+}
+
+
+.links button:hover {
+    color: #bb8d39;
+    border: 1px solid #bb8d39;
+    
+}
+ 
+nav button:hover {
+    color: #bb8d39;
+    border: 2px solid #bb8d39;
+    
+} 
+
+.copyright_text {
+    margin-top: 40px;
+    color: #bb8d39;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* 
+.copyright_text :hover{
+    color: white;
+} */
+
+nav button {
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 480px) {
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+
+    overflow-x: scroll;
+}
+
+.social_icons{
+    width: 90%;
+}
+
+.links{
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.links button{
+    width: 50%;
+    /* border: none; */
+}
+
+.icons{
+    margin-right: 0;
+}
+    
+}
