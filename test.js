@@ -20,6 +20,7 @@ const get_data = async (main_url) => {
   
   const response = await fetch(main_url)
   const data = await response.json();
+  console.log(data);
   
   data.articles.forEach(element => {
     
